@@ -1,0 +1,14 @@
+:root{
+  --dark:#1E1552;
+  --lightMain:#ff4500;
+  --lightSecond:#FF6700;
+  --gold:#ffd700;
+  --accent:#ffdab9;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: var(--dark);
+  color:var(--gold);
+}
