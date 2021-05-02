@@ -105,5 +105,5 @@
   </div>
   <div class="wave wave4">
 
-  </div
+  </div>
 </section>
