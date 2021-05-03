@@ -65,7 +65,7 @@
           </svg>
         </div>
       </a>
-      <div class="navicondiv">
+      <div class="navicondiv" onclick="openNav()">
         <svg
            xmlns:dc="http://purl.org/dc/elements/1.1/"
            xmlns:cc="http://creativecommons.org/ns#"
@@ -145,6 +145,87 @@
           CONTACT
         </a>
       </div>
+    </div>
+  </div>
+  <div class="sideheaderdiv" id='sideheaderdiv'>
+    <div class="closeicondiv" onclick='closeNav();'>
+      <svg
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:cc="http://creativecommons.org/ns#"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:svg="http://www.w3.org/2000/svg"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+        inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+        sodipodi:docname="close.svg"
+        viewBox="0 0 383.96783 383.80264"
+        height="383.80264"
+        width="383.96783"
+        id="closeicon"
+        version="1.1">
+        <metadata
+          id="metadata839">
+          <rdf:RDF>
+            <cc:Work
+              rdf:about="">
+              <dc:format>image/svg+xml</dc:format>
+              <dc:type
+                 rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+              <dc:title></dc:title>
+            </cc:Work>
+          </rdf:RDF>
+        </metadata>
+        <defs
+          id="defs837" />
+        <sodipodi:namedview
+          inkscape:current-layer="g841"
+          inkscape:window-maximized="1"
+          inkscape:window-y="-9"
+          inkscape:window-x="-9"
+          inkscape:cy="262.48241"
+          inkscape:cx="70.280096"
+          inkscape:zoom="1.1462864"
+          showgrid="false"
+          id="namedview835"
+          inkscape:window-height="1001"
+          inkscape:window-width="1920"
+          inkscape:pageshadow="2"
+          inkscape:pageopacity="0"
+          guidetolerance="10"
+          gridtolerance="10"
+          objecttolerance="10"
+          borderopacity="1"
+          bordercolor="#666666"
+          pagecolor="#ffffff" />
+        <g
+          transform="translate(-61.535106,31.461751)"
+          id="g841"
+          inkscape:label="Image"
+          inkscape:groupmode="layer">
+          <path
+            id="closeiconpath"
+            d="m 106.03253,350.48471 c -5.68682,-3.58906 -41.350275,-40.41663 -42.998312,-44.40185 -3.516847,-8.50431 -6.767457,-4.68861 66.734102,-78.33514 36.85311,-36.9258 66.83884,-67.5314 66.63494,-68.01245 -0.2039,-0.48104 -30.19475,-30.34402 -66.64633,-66.362178 C 58.890465,23.349272 60.427788,25.087862 61.994056,16.738932 62.610777,13.451532 65.675983,9.9162222 83.309855,-7.8460088 98.71405,-23.362335 104.95497,-28.992277 108.0695,-30.181727 c 8.53571,-3.259818 5.52605,-5.799204 78.29654,66.062319 36.48343,36.02772 66.72353,65.504948 67.20021,65.504948 0.47669,0 30.43694,-29.303388 66.57835,-65.118648 42.04889,-41.6694428 66.95941,-65.640011 69.17671,-66.566458 2.31146,-0.965788 4.83776,-1.218769 7.58815,-0.75987 3.68055,0.614094 6.20304,2.740954 23.50266,19.816453 10.65877,10.52068917 20.67127,21.1291252 22.25,23.574305 3.28911,5.09427 3.62483,9.21717 1.12041,13.75931 -0.9625,1.74564 -31.225,32.25789 -67.25,67.80502 -36.025,35.547118 -65.66683,65.099838 -65.87073,65.672688 -0.2039,0.57286 29.78183,31.25358 66.63494,68.17938 73.50148,73.64645 70.25087,69.83077 66.73419,78.33514 -1.70912,4.13314 -38.9054,42.32619 -43.69874,44.86976 -3.21632,1.70672 -9.07463,1.8658 -12.1154,0.32899 -1.20134,-0.60716 -31.99676,-30.86839 -68.43426,-67.24718 l -66.25,-66.14325 -66.25,66.14325 c -36.4375,36.37879 -67.23292,66.64002 -68.43426,67.24718 -3.34468,1.69041 -9.47902,1.30896 -12.81574,-0.7969 z"
+            fill="#000000" />
+        </g>
+      </svg>
+    </div>
+    <div class="sidenavdiv">
+      <a href="index.php">
+        <div class="sidenavbtndiv">
+          HOME
+        </div>
+      </a>
+      <a href="#">
+        <div class="sidenavbtndiv">
+          LISTEN
+        </div>
+      </a>
+      <a href="#">
+        <div class="sidenavbtndiv">
+          CONTACT
+        </div>
+      </a>
     </div>
   </div>
 </header>

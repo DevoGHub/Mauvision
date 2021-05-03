@@ -6,6 +6,7 @@
     <link rel="icon" href="resources/logo_icon.ico">
     <link rel="stylesheet" href="https://use.typekit.net/ddk4ukt.css">
     <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <?php include(__DIR__.'/background.php'); ?>

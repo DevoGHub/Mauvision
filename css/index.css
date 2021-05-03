@@ -4,6 +4,12 @@
   --lightSecond:#FF6700;
   --gold:#ffd700;
   --accent:#ffdab9;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body{
@@ -35,6 +41,10 @@ a{
   grid-column-gap: 2vw;
 }
 
+.icondiv{
+  cursor: pointer;
+}
+
 #logoiconsvg{
   height: 7vh;
   width: auto;
@@ -53,12 +63,12 @@ a{
   transition: 0.1s;
 }
 
-.icondiv:hover #logoiconpath, .secondicondiv:hover #logoiconpath{
+.icondiv:hover #logoiconpath{
   fill:var(--gold);
   transition: 0.1s;
 }
 
-.icondiv:hover #naviconpath, .secondicondiv:hover #naviconpath{
+.icondiv:hover #naviconpath{
   fill:var(--gold);
   transition: 0.1s;
 }
@@ -133,6 +143,12 @@ a{
   font-family: adobe-garamond-pro, serif;
   font-weight: 600;
   font-style: italic;
+  color:var(--gold);
+}
+
+.sideheaderdiv{
+  display:none;
+  z-index: 2;
 }
 
 
@@ -141,7 +157,18 @@ a{
 @media screen and (max-width:700px){
 
   .headerdiv{
-      border-width: 5px;
+    border-width: 5px;
+    display: inline-block;
+  }
+
+  .headerdiv:hover{
+    cursor:pointer;
+  }
+
+  .headerdiv:hover #naviconpath{
+    cursor:pointer;
+    fill: var(--gold);
+    transition: 0.1s;
   }
 
   .logoiconanchor{
@@ -150,6 +177,7 @@ a{
 
   .navicondiv{
     display:block;
+    cursor: pointer;
   }
 
   #naviconsvg{
@@ -160,21 +188,63 @@ a{
     display:none;
   }
 
-  .headerDiv{
-    display: inline-block;
+  .sideheaderdiv{
+    display:none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: var(--dark);
+    top:0;
+    left:0;
+    padding: 1vh 1vw;
+    grid-template-columns: 1fr 10fr;
+  }
+
+  #closeicon{
+    height: 4vh;
+    width: auto;
+    padding: 2vh;
+    border:solid 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+
+  #closeiconpath{
+    fill: var(--lightMain);
+    transition: 0.1s;
+  }
+
+  #closeicon:hover #closeiconpath{
+    fill: var(--gold);
+    transition: 0.1s;
+  }
+
+  .sidenavdiv a{
+    text-align: center;
+    height: 8vh;
+    font-size: 20px;
+    padding-top: 2vh;
+    display: block;
+  }
+
+  a .sidenavbtndiv{
+    padding: 2vw;
+    transition: 0.1s;
+  }
+
+  .sidenavdiv a:hover .sidenavbtndiv{
+    color: var(--lightMain);
+    transition: 0.1s;
   }
 
   .logodiv{
     border-spacing: 3vh;
-    margin-top: -11vh;
   }
 
   #logosvg{
-    height: 3.5vh;
-    margin-left: 2vw;
+    height: 2.5vh;
   }
 
   .quotediv{
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
