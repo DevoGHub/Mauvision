@@ -12,3 +12,169 @@ body{
   background-color: var(--dark);
   color:var(--gold);
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.bodydiv{
+  background-color: rgba(0,0,0,0.2);
+  height:98vh;
+  width: 98vw;
+  overflow-y: auto;
+  padding: 1vh 1vw;
+}
+
+.headerdiv{
+  border: solid 10px rgba(0,0,0,0.2);
+  padding: 2vh;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 19fr;
+  grid-column-gap: 2vw;
+}
+
+#logoiconsvg{
+  height: 7vh;
+  width: auto;
+}
+
+#naviconsvg{
+  height: 7vh;
+  width: auto;
+}
+
+#logoiconpath{
+  transition: 0.1s;
+}
+
+#naviconpath{
+  transition: 0.1s;
+}
+
+.icondiv:hover #logoiconpath, .secondicondiv:hover #logoiconpath{
+  fill:var(--gold);
+  transition: 0.1s;
+}
+
+.icondiv:hover #naviconpath, .secondicondiv:hover #naviconpath{
+  fill:var(--gold);
+  transition: 0.1s;
+}
+
+.navicondiv{
+  display:none;
+}
+
+.navdiv{
+  display: table;
+  text-align: center;
+  height: 100%;
+  margin-left: 35vw;
+  margin-right: 0;
+}
+
+.navdiv .navbtndiv{
+  display: table-cell;
+  vertical-align: middle;
+  width: 33%;
+}
+
+.navdiv .navbtndiv a{
+  border: solid 3.5px var(--lightSecond);
+  color: var(--lightSecond);
+  display: inline-block;
+  padding: 1vh;
+  width: 10vw;
+  opacity: 0.8;
+  transition:0.2s;
+}
+
+.navdiv .navbtndiv a:hover{
+  border-color: var(--lightMain);
+  color:var(--accent);
+  background-color:var(--lightSecond);
+  opacity:0.9;
+  transition:0.2s;
+  font-weight: bold;
+}
+
+.contentdiv{
+  text-align: justify;
+  margin-top:2vh;
+  width: inherit;
+}
+
+.logodiv{
+  display: table;
+  border-spacing: 4.5vh;
+  width: inherit;
+}
+
+.logodiv>div{
+  display: table-row;
+  text-align: center;
+}
+
+
+#logosvg{
+  height: 5vh;
+  width:auto;
+}
+
+#logopath{
+  fill:var(--gold);
+  opacity: 0.9;
+}
+
+.quotediv{
+  font-size: 3em;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+
+
+/*Responsive Queries*/
+@media screen and (max-width:700px){
+
+  .headerdiv{
+      border-width: 5px;
+  }
+
+  .logoiconanchor{
+    display: none;
+  }
+
+  .navicondiv{
+    display:block;
+  }
+
+  #naviconsvg{
+    height: 4vh;
+  }
+
+  .navdiv{
+    display:none;
+  }
+
+  .headerDiv{
+    display: inline-block;
+  }
+
+  .logodiv{
+    border-spacing: 3vh;
+    margin-top: -11vh;
+  }
+
+  #logosvg{
+    height: 3.5vh;
+    margin-left: 2vw;
+  }
+
+  .quotediv{
+    font-size: 2em;
+  }
+}
