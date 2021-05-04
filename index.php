@@ -1,4 +1,4 @@
-<?php require(__DIR__."/config/connection.php"); //$host,$username,$password,$dbname ?>
+<?php require(__DIR__."/config/connection.php");?>
 
 <html>
   <head>
