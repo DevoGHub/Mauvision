@@ -1,5 +1,5 @@
 <header>
-  <div class="headerdiv">
+  <div class="headerdiv" onclick="openNav()">
     <div class="icondiv">
       <a href="index.php" class="logoiconanchor">
         <div class="logoicondiv">
@@ -65,7 +65,7 @@
           </svg>
         </div>
       </a>
-      <div class="navicondiv" onclick="openNav()">
+      <div class="navicondiv">
         <svg
            xmlns:dc="http://purl.org/dc/elements/1.1/"
            xmlns:cc="http://creativecommons.org/ns#"

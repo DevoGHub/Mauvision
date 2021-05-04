@@ -1,11 +1,13 @@
 function browserResized(){
-  if(window.screen.width>700){
+  if(window.innerWidth > 700){
     closeNav();
   }
 }
 
 function openNav(){
-  document.getElementById('sideheaderdiv').style.display='grid';
+  if(window.innerWidth <=700){
+    document.getElementById('sideheaderdiv').style.display='grid';
+  }
 }
 
 function closeNav(){
