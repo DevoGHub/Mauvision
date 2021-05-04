@@ -216,11 +216,13 @@
           HOME
         </div>
       </a>
+      <hr>
       <a href="#">
         <div class="sidenavbtndiv">
           LISTEN
         </div>
       </a>
+      <hr>
       <a href="#">
         <div class="sidenavbtndiv">
           CONTACT

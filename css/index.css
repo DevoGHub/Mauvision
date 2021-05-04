@@ -235,6 +235,13 @@ a{
     transition: 0.1s;
   }
 
+  .sidenavdiv hr{
+    width: 90%;
+    height: 0.5vh;
+    border:none;
+    background-color: rgba(0,0,0,0.2);
+  }
+
   .logodiv{
     border-spacing: 3vh;
   }
