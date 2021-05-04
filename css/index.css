@@ -181,6 +181,7 @@ a{
 
   #naviconsvg{
     height: 4vh;
+    width: 4vh;
   }
 
   .navdiv{
@@ -201,7 +202,7 @@ a{
 
   #closeicon{
     height: 4vh;
-    width: auto;
+    width: 4vh;
     padding: 2vh;
     border:solid 5px rgba(0,0,0,0.2);
     cursor: pointer;
